@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <component :is="layout">
-      <!-- <router-view /> -->
-    </component>
+    <component :is="layout"></component>
   </div>
 </template>
 
@@ -11,9 +9,7 @@ import "vueperslides/dist/vueperslides.css";
 const default_layout = "SideNav";
 export default {
   name: "App",
-  components: {
-    // HelloWorld
-  },
+
   computed: {
     layout() {
       console.log(this.$route);

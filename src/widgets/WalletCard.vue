@@ -1,27 +1,5 @@
 <template>
   <div>
-    <!-- <b-card class="wallet-card">
-      <div style="float:right">
-        <img src="../../src/assets/icons/AspireLogo_White.svg" />
-      </div>
-      <br />
-      <p class="wallet-card-name p-0 m-0 pt-3">Mark Henry</p>
-      <div class="d-flex wallet-card-number pt-3">
-        <div class="row">
-          <span class="col">****</span>
-          <span class="col">****</span>
-          <span class="col">****</span>
-          <span class="col">2001</span>
-        </div>
-      </div>
-      <div class="row wallet-card-valid pt-2">
-        <span class="col-4">Thru: 12/20</span>
-        <span class="col" style=" letter-spacing: 2px;">CVV : ***</span>
-      </div>
-      <div class="pt-1" style="float:right">
-        <img src="../../src/assets/icons/VisaLogo.svg" />
-      </div>
-    </b-card>-->
     <vueper-slides
       class="no-shadow"
       :visible-slides="1"
@@ -125,8 +103,6 @@ export default {
 .wallet-card {
   background-color: #01d167;
   border-radius: 15px;
-  /* height: 200px; */
-  /* width: 380px; */
   padding: 0px 15px 0px 15px;
 }
 .wallet-card-name {
@@ -146,7 +122,6 @@ export default {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
   font-size: 14px;
-  /* letter-spacing: 2px; */
 }
 @media screen and (max-width: 600px) {
   .wallet-card {

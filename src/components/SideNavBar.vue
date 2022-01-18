@@ -21,7 +21,7 @@
 
 <script>
 export default {
-  name: "WalletCard",
+  name: "SideNavBar",
   props: {
     msg: String
   },
@@ -56,6 +56,9 @@ export default {
         }
       ]
     };
+  },
+  created() {
+    this.$router.push("/cards");
   },
   methods: {
     navigatePage(data, i) {

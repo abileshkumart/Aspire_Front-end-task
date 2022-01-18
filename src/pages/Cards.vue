@@ -103,8 +103,6 @@ export default {
     padding-bottom: 0;
   }
   .card-comp-inner {
-    /* padding: 0 1rem; */
-    /* background-color: #0C365A; */
     position: fixed;
     width: 100%;
     padding: 5% 8% 5% 5%;
